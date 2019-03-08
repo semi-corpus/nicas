@@ -48,6 +48,37 @@ a:hover{
 	letter-spacing: .6px; 
 	text-decoration: underline;
 }
+nav{
+	background:white;
+	box-shadow:0 -1px 5px rgba(0,0,0,.2);
+	height:80px;
+	position:sticky;
+	text-align:left;
+	top:0;
+}
+#home-btn{
+	position:absolute;
+	top:29px;
+	left:40px;
+}
+#home-btn a{
+	background: #a8ff78;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius:3px;
+	box-shadow: 0 0 6px 2px rgba(0,0,0,.05);	
+	color:#000;
+	font-weight: 700;
+	padding: 6px 5px 5px 5px;
+}
+#home-btn a:hover{
+	background:rgba(120, 255, 214, .3);
+  	box-shadow: 0 0 10px 1px rgba(100,100,100,.08);
+	color: #333;
+	letter-spacing:inherit; 
+	text-decoration: none;
+	text-shadow: 0 5px 2px rgba(0,0,0,.15);
+}
 .cover{
 	height:100%;
 }
